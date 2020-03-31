@@ -1,0 +1,148 @@
+
+
+
+a {
+	cursor: pointer;
+	text-decoration: none;
+	color: rgb(88, 88, 90);
+
+}
+
+a:hover {
+	color: white;
+}
+
+
+.logo {
+
+width: 20%;
+min-width: 200px;
+
+}
+
+.logo_section {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 45px;
+}
+
+.home {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	display: inline-block;
+	background-color: rgba(246, 195, 206, 0.8);
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin: 50px;
+	width: 140px;
+}
+
+.menu_section {
+	text-align: center;
+}
+
+.highlight {
+	color: white;
+}
+
+/*
+DEVELOPMENT PAGE*/
+
+.logo_development {
+	width: 8%;
+	margin-top: -40px;
+	min-width: 120px;
+
+}
+
+
+.development {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1em;
+	display: inline-block;
+	background-color: rgba(246, 195, 206, 0.8);
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+/*	margin: 50px;*/
+	width: 185px;	
+	margin-top: 10px;
+}
+
+.logo_section_development {
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: -100px;
+}
+
+.week_section {
+	text-align: center;
+	padding-left: 250px;
+	padding-right: 250px;
+
+}
+
+.weeks {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	display: inline-block;
+	margin: 20px;
+	margin-bottom: -20px;
+
+}
+
+.week_link:hover {
+	color:pink;
+}
+
+
+/*WEEK 8*/
+
+.week8 {
+	text-align: center;
+	padding-left: 350px;
+	padding-right: 350px;
+}
+
+.week_number {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.8em;
+	margin-top: 80px;
+/*	color: rgba(246, 195, 206, 0.8);*/
+	color: rgb(88, 88, 90);
+}
+
+.description {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.01em;
+	color: rgb(88, 88, 90);
+	padding-left: 350px;
+	padding-right: 350px;
+}
+
+
+
+.logo_image {
+	width: 250px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+
+.brochure_image {
+	margin-bottom: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.documentation_images {
+	text-align: center;
+
+}
+
+
+
+
