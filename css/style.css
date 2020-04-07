@@ -101,7 +101,7 @@ DEVELOPMENT PAGE*/
 
 /*WEEK 8*/
 
-.week8 {
+.week9, .week8, .week7 {
 	text-align: center;
 	padding-left: 350px;
 	padding-right: 350px;
@@ -109,10 +109,11 @@ DEVELOPMENT PAGE*/
 
 .week_number {
 	font-family: 'Open Sans', sans-serif;
-	font-size: 1.8em;
+	font-size: 1.5em;
 	margin-top: 80px;
 /*	color: rgba(246, 195, 206, 0.8);*/
 	color: rgb(88, 88, 90);
+	text-decoration: underline;
 }
 
 .description {
@@ -138,11 +139,41 @@ DEVELOPMENT PAGE*/
 	margin-right: 10px;
 }
 
-.documentation_images {
+.documentation_images, .documentation_videos {
 	text-align: center;
 
 }
 
+.midterm_video {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
 
+.week7_brochure {
+	margin-top: 25px;
+}
+
+.week7_stickers {
+	margin-bottom: 25px;
+}
+
+.week7_insta_wall {
+	margin-right: 66px;
+	margin-bottom: 25px;
+	width: 500px
+}
+
+.week7_logo {
+	margin-left: 67px;
+	width: 500px;
+
+}
+
+
+
+.week9_developer {
+	margin-top: 25px;
+	width: 1137px;
+}
 
 
