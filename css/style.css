@@ -101,7 +101,7 @@ DEVELOPMENT PAGE*/
 
 /*WEEK 8*/
 
-.week9, .week8, .week7 {
+.week9, .week8, .week7, .week6, .week5, .week4, .week3, .week2, .week1 {
 	text-align: center;
 	padding-left: 350px;
 	padding-right: 350px;
@@ -144,7 +144,7 @@ DEVELOPMENT PAGE*/
 
 }
 
-.midterm_video {
+.midterm_video, .week6_video, .week5_video, .week4_video, .week3_video, .week2_video, .week1_video {
 	margin-top: 25px;
 	margin-bottom: 25px;
 }
@@ -170,10 +170,60 @@ DEVELOPMENT PAGE*/
 }
 
 
-
 .week9_developer {
 	margin-top: 25px;
 	width: 1137px;
 }
+
+
+
+.week6_video2{
+	margin-top: 25px;
+	margin-bottom: -5px;
+}
+
+.week5_images {
+	margin-top: 25px;
+	width: 1137px;
+}
+
+
+.week4_images {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 1137px;
+}
+
+.week4_images2 {
+	margin-top: 25px;
+	width: 1137px;
+}
+
+.week3_images {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+
+.week2_images, .week1_images {
+	margin-top: 25px;
+	margin-bottom: 25px;
+	width: 750px;	
+}
+
+.week2_link {
+	text-decoration: underline;
+}
+
+.week2_link:hover {
+	color: rgba(246, 195, 206, 0.8);
+}
+
+
+.week2_images3 {
+	width: 750px;	
+}
+
+
 
 
