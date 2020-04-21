@@ -101,7 +101,7 @@ DEVELOPMENT PAGE*/
 
 /*WEEK 8*/
 
-.week10, .week9, .week8, .week7, .week6, .week5, .week4, .week3, .week2, .week1 {
+.week11, .week10, .week9, .week8, .week7, .week6, .week5, .week4, .week3, .week2, .week1 {
 	text-align: center;
 	padding-left: 350px;
 	padding-right: 350px;
@@ -224,7 +224,7 @@ DEVELOPMENT PAGE*/
 	width: 750px;	
 }
 
-.week10_images {
+.week10_images, .week11_images {
 	margin-top: 25px;
 	margin-bottom: 25px;
 	width: 1137px;		
@@ -236,8 +236,10 @@ DEVELOPMENT PAGE*/
 	width: 1137px;
 }
 
-
-
+.week11_images2 {
+	margin-top: -5px;
+	width: 1137px;
+}
 
 
 
