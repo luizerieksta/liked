@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Development Page</title>
+	<title>Archive Page</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 </head>
@@ -12,10 +12,10 @@
 	</div>
 
 	<div class="menu_section">
-		<a href="development.html"><p class="development">home</p></a>
+		<a href="index.html"><p class="development">home</p></a>
 		<a href="development.html"><p class="development highlight">archive</p></a>
-		<a><p class="development">about</p></a>
-		<a href="development.html"><p class="development">demo</p></a>
+		<a href="documentation.html"><p class="development">documentation</p></a>
+		<a href="demo.html"><p class="development">demo</p></a>
 	</div>
 
 
@@ -26,6 +26,7 @@
 		<a class="week_link" href="#week9_pagejump"><p class="weeks">Week 9</p></a>
 		<a class="week_link" href="#week8_pagejump"><p class="weeks">Week 8</p></a>
 		<a class="week_link" href="#week7_pagejump"><p class="weeks">Week 7</p></a>
+		<a class="week_link" href="#usertesting_pagejump"><p class="weeks">User Testing</p></a>
 		<a class="week_link" href="#week6_pagejump"><p class="weeks">Week 6</p></a>
 		<a class="week_link" href="#week5_pagejump"><p class="weeks">Week 5</p></a>
 		<a class="week_link" href="#week4_pagejump"><p class="weeks">Week 4</p></a>
@@ -36,6 +37,8 @@
 		<a><p class="development">about</p></a>
 		<a href="development.html"><p class="development">hello</p></a> -->
 	</div>
+
+<a class="week_link" href="development.html"><button id="myBtn" title="Go to top">top ↑</button>
 
 
 	<div class="week12">
@@ -193,6 +196,45 @@
 	</div>
 
 
+	<div class="usertesting">
+
+		<a name="usertesting_pagejump"><p class="week_number">User Testing</p></a>
+
+	</div>
+
+
+	<div>
+		<p class="description">For user testing I tested the extension on three people on campus who were either not familiar with my project at all or had some exposure to the overall idea but not many details. The extension was not in a fully complete state, as I still needed to hardcode the action that would happen when a photo is liked. For example, actions such as posting a comment or erasing all likes would happen separately depending on which function I hardcoded to happen. Therefore, I needed to toggle between different functions during user testing but I informed my users beforehand and it didn’t seem like a huge issue. Ideally for the finished extension I would like the actions to happen randomly and not every single time when a photo is liked. For example, a user would scroll and like a photo and a comment would be posted. Then they would like another photo but nothing would happen at all, making the user question whether the comment post really happened. Then they would like another photo and all the likes for that photo would be erased, etc.
+			<br>
+			<br>
+		Overall, I let the users interact with Instagram on their own with giving minimal instructions but without telling them what was going to happen. I asked them to then comment on their first impressions and tell me what they thought happened when a certain action took place. After they were done interacting with Instagram, I asked them to describe to me what they thought the project was trying to achieve. Then I explained to them my idea behind the project and asked them whether it was successful or not at achieving that.
+			<br>
+			<br>
+		User #1 was Anel. As she was the first user and I wanted everything to run smoothly, I asked Anel to use the extension from my personal Instagram profile. I gave her instructions to use Instagram as she normally would and like posts just like she normally would. She didn’t know about my project and what is supposed to happen. She scrolled through the feed and started liking photos. The first thing that I hardcoded to happen was posting the comments, therefore every time she liked a photo, a comment would be posted. I came up with 8 different comments that were all revolving around a similar theme such as: “How many filters did you apply to that photo?” or “Not my favorite”, etc. The comments were meant to be critical but not rude or offensive. The second thing that I hardcoded to happen was appending the text on top of the image. Anel noticed the comments appending straight away, however she said that overall it was much subtler than the text appearing on top of the image. She suggested that I could possibly give a higher chance for the comment append function to happen over the function which appends text on the image. In that way, the main action that would happen when people use the extension would be posting different comments and erasing the likes (as she also mentioned that erasing the likes was quite subtle too) and only occasionally have the very noticeable text appear on top of the image to really grab people’s attention. She also mentioned that she liked the comments as they are right now but she suggested me to add more emojis to them because they would become more visually appealing then. Another suggestion she made was to potentially have the image itself go white or disappear when it is liked to also attract user’s attention.</p>
+
+		<div class="documentation_images">
+
+			<img class="usertesting_images" src="media/images/anel1.jpg">
+			<img class="usertesting_images" src="media/images/anel2.jpg">
+		</div>
+
+		<p class="description">Keita was user #2. Keita had previously heard me talk about my project, therefore she had had exposure to it and knew briefly what was going on. After user testing running smoothly with Anel, I asked Keita to log on with her personal profile to observe how that would change the way how a user experiences the project. Keita logged on and started liking photos and the first thing that was supposed to happen was again posting the comments. When the first comment posted she immediately noticed the comment. Her first reactions were: “Woooow Luize, what did you do?”, “OMG”, “This looks very real”. She immediately said that she only didn’t freak out because she knew from what I had told her previously that the comment doesn’t actually post but only appears on the site. She said that if she didn’t know that she would think that the comment was actually posted and that would make her feel very freaked out. She also mentioned liking the content of the comments as they were very “attention grabbing”. When asked about what she thought my piece was doing she said that it is working very well to make you rethink your behavior on Instagram and when liking photos. Lastly, she gave me some feedback that she thought that erasing the likes was the least impactful action of them all because it was harder to notice but she still liked it because she liked the subtleness and how it is not noticeable straight away.</p>
+
+		<div class="documentation_images">
+
+			<img class="usertesting_images" src="media/images/keita1.jpg">
+			<img class="usertesting_images" src="media/images/keita2.jpg">
+		</div>
+
+		<p class="description">My last user was Lucius. Lucius told me that he had only joined Instagram a couple of weeks ago and he still felt very new to it. He would have gladly signed in with his personal profile, however, he said he wasn’t sure if he will be able to remember his password, therefore I offered him to use the extension from my profile. I gave him minimal instructions about what to do and then he started interacting with the photos. Lucius was the first person to not notice the comments at all. He liked at least three posts and did not see a single comment appending. After I told him there were actually comments appending he said that he might have not noticed that because he still feels very new to Instagram and isn’t quite familiar with the interface yet. When I changed the function from comments to appending a text on top of the image, he of course noticed that straight away. Lucius always carefully read through each of the messages and laughed a little after he finished reading. After being done with interacting with Instagram, he gave me very thorough, valuable and surprising insight about what he thought the project was about. He said: “So this project is made to reflect on the way you use Instagram. It interrupts the flow that you get in while scrolling and double tapping and scrolling and double tapping. When a text appears on the image you actually finally stop and stay with the content and engage with it a little more and reflect that you have been scrolling non-stop for three hours and didn’t actually pay attention to the photos anymore. It also makes you think about the content of the image a bit more.” Lucius’ analysis of my project was very surprising to me in a good way because I realized that the idea behind my project could be shared without giving any context beforehand which is what I am ultimately striking for.</p>
+
+		<div class="documentation_images">
+
+			<img class="usertesting_images2" src="media/images/lucius.jpg">
+		</div>
+
+	</div>
+
 
 	<div class="week6">
 
@@ -282,7 +324,7 @@
 			<iframe class="week4_video" src="https://player.vimeo.com/video/406837004" width="750" height="603.5" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
 		</div>
 
-		<p class="description">I also worked on making the like count go to zero on each image separately after double clicking it, however, I didn't manage to properly execute it, and it still only happens on the first post of the site. I tried using a similar logic as with appending text to particular images, however, I couldn't get it to work. Also, although the class name of the element that the like count is a part of is the same for all images, my code still only recognizes the like count on the first image. I will talk about this issue to Aaron. Another functionality that I started working with is having a comment appear below a post that is liked but I also need to talk to the Capstone Seminar advisor Aaron about it.
+		<p class="description">I also worked on making the like count go to zero on each image separately after double clicking it, however, I didn't manage to properly execute it, and it still only happens on the first post of the site. I tried using a similar logic as with appending text to particular images, however, I couldn't get it to work. Also, although the class name of the element that the like count is a part of is the same for all images, my code still only recognizes the like count on the first image. I will talk about this issue to the Capstone Seminar advisor Aaron. Another functionality that I started working with is having a comment appear below a post that is liked but I also need to talk to Aaron about it.
 		<br>
 		<br>
 		Lastly, I started coding a website for the documentation of my project. I created the home page which is in line with the theme that I want my project to have – Instagram-inspired color palette and elements. I will start adding the progress reports on the website starting from next week (I will also make a summary about all the progress so far) and it will be under the ‘development’ button. Here is a screenshot of the home page:</p>
@@ -390,14 +432,14 @@
 
 	<div class="week1">
 
-		<a name="week1_pagejump"><p class="week_number">J-term + Week 1</p></a>
+		<a name="week1_pagejump"><p class="week_number">Week 1</p></a>
 
 	</div>
 
 
 
 	<div>
-		<p class="description">Over the break I started actively working on developing the Chrome Extension for manipulating the way how Instagram behaves when the user likes a picture. I started with web scraping to understand how Instagram is built and how it is possible to access some of its elements such as the background, the images, the like button, etc. I then tried out changing these elements directly in the console by replacing them or manipulating them in other ways.</p>
+		<p class="description">During the Fall 2019 semester after exploring the topic of anxieties triggered by social media, I developed the concept for my Capstone Project. It is creating a Chrome extension which manipulates the output of liking an Instagram post. On the first week of working on my project I started actively working on developing the Chrome Extension for manipulating the way how Instagram behaves when the user likes a picture. I started with web scraping to understand how Instagram is built and how it is possible to access some of its elements such as the background, the images, the like button, etc. I then tried out changing these elements directly in the console by replacing them or manipulating them in other ways.</p>
 
 		<div class="documentation_images">
 
